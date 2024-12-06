@@ -25,9 +25,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <base href="/treasured-bytes" />
-      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
